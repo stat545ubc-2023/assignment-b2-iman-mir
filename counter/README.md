@@ -34,7 +34,7 @@ You can install the development version of counter from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2023/assignment-b2-iman-mir")
+devtools::install_github("iman-mir/counter")
 ```
 
 ## Example
