@@ -25,7 +25,6 @@ In order to create the function, I used the R packages of dplyr,tidyverse, devto
 ```{r}
 library(devtools)
 library(dplyr)
-library(datateachr)
 ```
 
 
@@ -45,6 +44,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 #basic example code
+library(datateachr)
 library(counter)
 counter(vancouver_trees, height_range_id)
 ```

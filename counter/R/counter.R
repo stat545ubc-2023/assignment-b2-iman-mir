@@ -8,10 +8,9 @@
 #' @export
 #'
 #' @examples
-#' library(datateachr)
-#' counter(vancouver_trees, height_range_id )
-#' counter(vancouver_trees, cultivar_name )
-#' counter(vancouver_trees, genus_name )
+#' counter(mtcars, disp )
+#' counter(faithful, eruptions )
+#' counter(faithful, waiting)
 counter <- function(df, group_var) {
      df |>
     group_by({{ group_var }}) |>
