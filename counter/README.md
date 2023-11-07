@@ -24,7 +24,6 @@ library(dplyr)
 #> The following objects are masked from 'package:base':
 #> 
 #>     intersect, setdiff, setequal, union
-library(datateachr)
 ```
 
 ## Installation
@@ -34,7 +33,7 @@ You can install the development version of counter from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("iman-mir/counter")
+devtools::install_github("stat545ubc-2023/assignment-b2-iman-mir")
 ```
 
 ## Example
@@ -43,6 +42,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 #basic example code
+library(datateachr)
 library(counter)
 counter(vancouver_trees, height_range_id)
 #> # A tibble: 11 × 2
