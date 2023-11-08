@@ -12,7 +12,7 @@
 #' counter(faithful, eruptions )
 #' counter(faithful, waiting)
 counter <- function(df, group_var) {
-     df |>
-    group_by({{ group_var }}) |>
-    summarise(n = n())}
+    df %>%
+    dplyr::group_by({{ group_var }})  %>%
+    dplyr::summarise(n = n())}
 
