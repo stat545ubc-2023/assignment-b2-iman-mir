@@ -4,7 +4,7 @@
 #' @param group_var The group of interest.
 #'
 #' @return A tibble.
-#' @import devtools dplyr
+#' @import datateachr devtools dplyr
 #' @export
 #'
 #' @examples

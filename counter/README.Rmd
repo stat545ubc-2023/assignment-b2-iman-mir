@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 
 The goal of counter is to determine the count of different data points in a group within a data frame. 
 
-In order to create the function, I used the R packages of dplyr and devtools. 
+In order to create the function, I used the R packages dplyr and devtools. Additionaly, I used the datateachr package to generate examples of the function. 
 
 ## Installation
 
