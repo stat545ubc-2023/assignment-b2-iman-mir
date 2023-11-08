@@ -9,3 +9,10 @@ The purpose of the counter function is to count the number of different
 data values within a category of a dataset. This can be useful when
 making statistical analyses about the most abundant or scarce data
 values.
+
+This package can be downloaded by running the following code below:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2023/assignment-b2-iman-mir/counter", subdir = counter)
+```
