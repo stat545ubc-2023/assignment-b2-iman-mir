@@ -9,22 +9,8 @@
 The goal of counter is to determine the count of different data points
 in a group within a data frame.
 
-In order to create the function, I used the R packages of
-dplyr,tidyverse, devtools and datateachr.
-
-``` r
-library(devtools)
-#> Loading required package: usethis
-library(dplyr)
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
-```
+In order to create the function, I used the R packages of dplyr and
+devtools.
 
 ## Installation
 
@@ -33,7 +19,7 @@ You can install the development version of counter from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2023/assignment-b2-iman-mir")
+devtools::install_github("stat545ubc-2023/assignment-b2-iman-mir/counter", subdir = counter)
 ```
 
 ## Example
