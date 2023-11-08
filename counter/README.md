@@ -42,9 +42,8 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 #basic example code
-library(datateachr)
 library(counter)
-counter(vancouver_trees, height_range_id)
+counter(datateachr::vancouver_trees, height_range_id)
 #> # A tibble: 11 × 2
 #>    height_range_id     n
 #>              <dbl> <int>
